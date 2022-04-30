@@ -192,3 +192,6 @@ class AutoTrader:
                 cv = CoinValue(coin, balance, usd_value, btc_value, datetime=now)
                 session.add(cv)
                 self.db.send_update(cv)
+""" 
+Only test the code
+"""
